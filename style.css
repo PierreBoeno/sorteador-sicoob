@@ -1,0 +1,64 @@
+:root {
+  --color-primary: #00ae9d;
+  --color-secondary: #003641;
+  --color-white: #ffffff;
+  --color-purple: #49479d;
+  --color-green-medium: #7db61c;
+  --color-green-light: #c9d200;
+}
+
+body {
+  background-image: url(./src/padroes/padroes-31.png);
+  background-size: cover;
+  color: var(--color-white);
+  font-family: "Asap", sans-serif;
+}
+
+.verde-escuro {
+  background-color: var(--color-secondary);
+}
+
+h1 {
+  color: var(--color-purple);
+  font-weight: bold;
+}
+
+.erro {
+  display: none;
+  color: red;
+}
+
+main {
+  background-color: var(--color-green-light);
+  color: var(--color-secondary);
+}
+
+footer {
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+button {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  border-radius: 10px;
+  transition: .5s;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+  transform: scale(1.03);
+}
+
+.sorteados {
+  background-color: var(--color-purple);
+  height: 40vh;
+  color: var(--color-green-light);
+}
+
+.sorteados .table {
+  color: white;
+}
